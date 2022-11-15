@@ -1,5 +1,8 @@
 function solution(numbers) {
-    let answer = numbers.reduce((x, y)=> (x, y*2), []);
+  let answer= [];
+    for(i = 0; i < numbers.length; i++){
+        answer.push(numbers[i]*2)
+    }
     return answer
 }
 
