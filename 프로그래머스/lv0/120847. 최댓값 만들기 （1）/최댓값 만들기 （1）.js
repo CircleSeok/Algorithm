@@ -4,6 +4,19 @@ function solution(numbers) {
 }
 
 function solution(numbers) {
+    var answer = 0;
+
+    for(let i = 0; i < numbers.length ; i++){
+        if(answer < numbers[i] * numbers[i+1]){
+            answer = numbers[i] * numbers[i+1];
+        }
+    }
+
+    return answer;
+}
+
+
+function solution(numbers) {
     let mx1 = 0
     let mx2 = 0
     let idx = 0
