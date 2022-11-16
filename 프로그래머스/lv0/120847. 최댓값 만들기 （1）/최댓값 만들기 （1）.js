@@ -18,5 +18,5 @@ function solution(numbers) {
 
 // sort 쓰면 스트링 순으로 반환 해줌
 
-// ((a,b)=>b-a)  하면 내림차순
+// ((a,b)=>b-a) 하면 내림차순
 // ((a,b)=>a-b) 하면 오름차순
