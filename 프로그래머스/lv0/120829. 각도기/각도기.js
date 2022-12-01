@@ -9,3 +9,6 @@ function solution(angle) {
         return 4
     }
 }
+
+// 90 < x < 180 같은거 할때
+// && 써줘야함
