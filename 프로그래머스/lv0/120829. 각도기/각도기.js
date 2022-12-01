@@ -12,3 +12,7 @@ function solution(angle) {
 
 // 90 < x < 180 같은거 할때
 // && 써줘야함
+
+function solution(angle) {
+return angle < 90 ? 1 : angle === 90? 2 : angle < 180 ? 3 :4;
+}
