@@ -28,8 +28,8 @@ function solution(array, height) {
 function solution(array, height) {
     let count = 0;
 
-    for (a of array) {
-        if (a > height) count += 1;       
+    for (i of array) {
+        if (i > height) count ++       
     }
     return count;
 }
