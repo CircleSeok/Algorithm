@@ -1,5 +1,5 @@
 function solution(array, n) {
-  let result = array.filter(array => array === n).length;
+  let result = array.filter(i => i === n).length;
     return result
 }
 
