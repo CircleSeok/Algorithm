@@ -2,6 +2,12 @@ function solution(slice, n) {
     return Math.ceil(n / slice)
 }
 
+//조각수 2~10  === slice
+//먹는사람수 === n
+
+// Math.ceil(n/slice)
+
+
 function solution(slice, n) {
     let i = 1;
     while(slice * i < n){
