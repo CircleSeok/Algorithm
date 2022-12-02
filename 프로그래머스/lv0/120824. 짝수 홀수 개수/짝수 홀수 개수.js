@@ -45,3 +45,14 @@ function solution(num_list) {
 
     return answer;
 }
+
+// for(i = 0; i<num_list.length; i++){
+//  if()
+//}
+
+//filter()
+
+
+function solution(num_list) {
+    return [num_list.filter(el => el%2===0).length,num_list.filter(el => el%2 === 1).length]
+}
