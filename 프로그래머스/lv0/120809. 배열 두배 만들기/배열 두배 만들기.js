@@ -7,7 +7,7 @@ function solution(numbers) {
 }
 
 function solution(numbers) {
-    let arr = numbers.map(number => number *2)
+    let arr = numbers.map(el => el *2)
     return arr
 }
 
@@ -19,3 +19,6 @@ function solution(numbers) {
     // , [] 위치는 결과값을 받을 형태 이번 문제는 초기값을 [] 배열로 받으니 []로 쓴다 합산 값이면 0
 }
 
+//for()
+
+//map()
