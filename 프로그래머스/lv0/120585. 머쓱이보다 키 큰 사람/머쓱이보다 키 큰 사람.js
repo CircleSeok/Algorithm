@@ -3,6 +3,9 @@ function solution(array, height) {
     return result
 }
 
+//filter() 배열에만 사용할수있다.
+//height 보다 큰녀석들을 배열로 만들어준다
+// 그리고 .length 를 붙혀 그 수를 구한다.
 
 function solution(array, height) {
     let answer = [];
