@@ -1,24 +1,6 @@
 function solution(num_list) {
-    return num_list.reverse()
+    var answer = num_list.reverse()
+    return answer;
 }
 
-
-
-function solution(num_list) {
-    let arr = [];
-    for(let i = num_list.length-1 ;i >= 0;i--)
-        {
-            arr.push(num_list[i]);
-        }
-    return arr
-}
-function solution(num_list) {
-    let arr = [];
-    let i = num_list.length-1
-    while(i>=0) // 조건 
-        {
-          arr.push(num_list[i]);
-          i--; 
-        }
-    return arr
-}
+//배열을 뒤집으려면 for문으로 한번 돌아야할까?
