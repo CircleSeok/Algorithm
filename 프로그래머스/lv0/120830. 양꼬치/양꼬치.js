@@ -1,13 +1,13 @@
-// function solution(n, k) {
-  
-//     return n*12000 + k*2000 -Math.floor(n/10) * 2000 
-// }
+function solution(n, k) {
+    var answer = (n * 12000) + ((k * 2000) - (Math.floor(n/10) * 2000))
+    return answer;
+}
 
-let solution = (n, k) =>   n*12000 + k*2000 -Math.floor(n/10) * 2000 
+// 1n = 12000
+// 1k = 2000
 
+// 10n = 1k가 서비스
 
-// 10n 을 먹으면 음료수 k 줌
-// n = 12000 k= 2000
+// (n * 12000) + (k * 2000) - (n/10 * 2000
 
-// 서비스 : -Math.floor(n/10) * 2000 
-// n*12000 + k*2000 -Math.floor(n/10) * 2000 
+//양꼬치를계산돈 + 음료수 계산돈 - 서비스로 받은 음료수
