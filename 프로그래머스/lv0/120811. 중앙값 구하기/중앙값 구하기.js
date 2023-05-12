@@ -1,15 +1,38 @@
 function solution(array) {
-  // 배열 길이 중 중앙값 (중간 index) 찾기
-  const mid_num = Math.floor(array.length / 2);
-
-  // 오름차순으로 정렬하기 - sort() 메서드 사용
-  const asc_array = array.sort((a, b) => a - b);
-
-  // 오름차순된 새로운 배열 중 중간 index 반환하기
-  return asc_array[mid_num];
-}
+    let arrayCnt = 0;
+        let newArray = [];
+    while(arrayCnt < array.length){
+        let minNum  = 1000;
+    
+        
+        let cnt = 0 ;
+        while(cnt < array.length){
+            if(minNum > array[cnt]){
+               minNum = array[cnt];
+               }
+            cnt = cnt + 1;
+        }
+        
+        newArray.push(minNum);
+        
+        let cnt2 = 0;
+        while(cnt2 < array.length){
+            if(minNum === array[cnt2]){
+                array[cnt2] = 1000;
+                break
+            }
+            cnt2 = cnt2 + 1
+        }
+        
+        arrayCnt = arrayCnt + 1;
+    }
+    return newArray[Math.floor(newArray.length/2)]
+  
+    }
 
 //배열 - 제일 작은 값을 찾는다
 //찾으면 새 배열에 넣기
-//원래 배열에서 삭제
-//원래 배열의 길이만큼 반복
+//원래 배열에서 찾은 값 삭제
+//만약 원래 배열의 길이만큼 반복했으면 끝낸다. 아니면 처음으로 돌아간다.
+
+//가운데 값 꺼내기
