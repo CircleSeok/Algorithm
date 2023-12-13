@@ -9,3 +9,11 @@ function solution(names) {
 
 
 // 다섯개씩 잘라서 그 인덱스 0번째 반환
+
+// function solution(names) {
+//     var answer = [];
+//     for(let i = 0; i < names.length; i += 5){
+//         answer.push(names[i])
+//     }
+//     return answer;
+// }
