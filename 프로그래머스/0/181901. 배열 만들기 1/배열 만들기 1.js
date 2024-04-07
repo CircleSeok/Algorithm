@@ -1,9 +1,10 @@
-function solution(n, k) {
-        let result = [];
-    for(i = 1; i <= n; i ++) {
-        if(i % k === 0) {
-            result.push(i)
+function solution(n,k) {
+    let arr =[];
+    for(let i = 1; i <= n; i++){
+        if(i % k === 0){
+            arr.push(i)
         }
     }
-    return result
+    return arr;
 }
+
